@@ -3,5 +3,18 @@
   "projectname": "smartSchool",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "components/rightBtn/rightBtn",
+          "pathName": "components/rightBtn/rightBtn",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }

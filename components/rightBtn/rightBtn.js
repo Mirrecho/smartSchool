@@ -1,66 +1,34 @@
-// components/rightBtn/rightBtn.js
-Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
-  }
+// components/mybtn/mybtn.js
+Component({
+	/*组件的方法(函数/功能)列表*/
+	methods: {
+		//返回顶部功能
+		returnTop(){
+			wx.pageScrollTo({
+				scrollTop: 0,//滚动至目标地址
+				duration: 200, //滚动的时长
+				// 提示框
+				success(){
+					wx.showToast({
+						title: '成功',
+						icon: 'success',
+						duration: 2000
+					})
+				}
+			})
+		},
+		// 拨打电话功能
+		phone(){
+			wx.makePhoneCall({
+				phoneNumber: '1340000' //仅为示例，并非真实的电话号码
+			})
+		},
+		//地图页面跳转
+		mapHandle(){
+			// 页面跳转
+			wx.navigateTo({
+				url: '/pages/map/map',
+			})
+		}
+	}
 })

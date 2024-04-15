@@ -1,8 +1,6 @@
 /**index.wxss**/
-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+page{
+	background-color: #f4f4f4;
 }
 .scrollarea {
   flex: 1;
