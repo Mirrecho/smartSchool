@@ -1,8 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "components/rightBtn/rightBtn"
+    "pages/logs/logs"
   ],
   "window": {
     "navigationBarTextStyle": "black",
