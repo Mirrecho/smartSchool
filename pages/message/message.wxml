@@ -11,3 +11,36 @@
     <image src="../../imgs/消息-置灰.png"/>
   </view>
 </view>
+<!-- 导航列表 -->
+<view class="barlist">
+  <view bind:tap="change">
+    <view class="yellow">
+      <image src="../../imgs/messageimgs/1.png"></image>
+    </view>
+    <view>代办</view>
+  </view>
+  <view bind:tap="changemessage">
+    <view>
+      <image src="../../imgs/messageimgs/2.png"></image>
+    </view>
+    <view>待阅</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/messageimgs/3.png"></image>
+    </view>
+    <view>已办</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/messageimgs/4.png"></image>
+    </view>
+    <view>已阅</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/messageimgs/5.png"></image>
+    </view>
+    <view>系统</view>
+  </view>
+</view>
