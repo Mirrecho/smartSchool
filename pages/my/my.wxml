@@ -8,3 +8,36 @@
     <view>去了解</view>
   </view>
 </view>
+<!-- 首页导航列表 -->
+<view class="barlist">
+  <view bind:tap="change">
+    <view class="yellow">
+      <image src="../../imgs/school.svg"></image>
+    </view>
+    <view>学校概况</view>
+  </view>
+  <view bind:tap="changemessage">
+    <view>
+      <image src="../../imgs/score.svg"></image>
+    </view>
+    <view>{{message}}</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/order.svg"></image>
+    </view>
+    <view>缴费入口</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/danger.svg"></image>
+    </view>
+    <view>学校预警</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/all.svg"></image>
+    </view>
+    <view>全部</view>
+  </view>
+</view>
