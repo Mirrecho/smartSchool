@@ -1,0 +1,56 @@
+/* pages/i/i.wxss */
+/* 背景 */
+.bg{
+  margin-top: -10rpx;
+  height: 100rpx;
+  background: linear-gradient(to top,#fdfffe,#44d3b2);
+}
+/* 我的 */
+.me{
+  width: 90%;
+  height: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+  padding-top: 20rpx;
+}
+.me>image{
+  width: 10%;
+}
+.me>view{
+  font-size: 25rpx;
+  font-weight: 900;
+}
+/* 头像 */
+.my{
+  width: 90%;
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80rpx;
+}
+.my .img{
+  width: 70rpx;
+  height: 70rpx;
+  border: solid red 2rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.my .img>image{
+  width: 70rpx;
+  height: 70rpx;
+}
+.my .text{
+  margin-left: 50rpx;
+}
+.my .text>view:first-child{
+  font-size: 28rpx;
+  font-weight: 900;
+}
+.my .text>view:last-child{
+  font-size: 20rpx;
+  color: #A3A3A3;
+  margin: 10rpx 0 5rpx 0;
+}

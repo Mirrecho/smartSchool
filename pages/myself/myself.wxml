@@ -1,0 +1,21 @@
+<!-- 背景 -->
+<view class="bg">
+  <!-- 我的 -->
+<view class="me">
+  <image src="../../imgs/app.png" mode="aspectFit"/>
+  <view>
+    我的
+  </view>
+  <image src="../../imgs/app.png" mode="aspectFit"/>
+</view>
+<!-- 头像 -->
+<view class="my">
+  <view class="text">
+    <view>韩瑞</view>
+    <view>信息化管理中心</view>
+  </view>
+  <view class="img">
+    <image src="../../imgs/myimgs/avater.png" />
+  </view>
+</view>
+</view>
