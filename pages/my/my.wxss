@@ -76,3 +76,65 @@
   font-size: 26rpx;
   text-align: center;
 }
+.things{
+  width: 90%;
+  height: 250rpx;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+  position: relative;
+}
+.things .left{
+  position: relative;
+  width: 48%;
+  height: 200rpx;
+  /* background-color: #FF8260; */
+  background: linear-gradient(to right,#FEB27A,#FF805F);
+  border-radius: 20rpx;
+}
+.things .left>image{
+  width: 220rpx;
+  height: 200rpx;
+  position: absolute;
+  bottom: 0;
+}
+.things .left .midtitle{
+  position: absolute;
+  right: 26rpx;
+  top: 60rpx;
+  color: white;
+}
+.things .left .midtitle>view:first-child{
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.things .left .midtitle>view:last-child{
+  font-size: 23rpx;
+}
+.things .right{
+  position: relative;
+  width: 48%;
+  height: 200rpx;
+  background: linear-gradient(to right,#95F9DA,#68D0E4);  /* 线性渐变色 */
+  border-radius: 20rpx;
+}
+.things .right>image{
+  width: 230rpx;
+  height: 200rpx;
+  position: absolute;
+  right: -13rpx;
+}
+.things .right .midtitle{
+  position: absolute;
+  left: 25rpx;
+  top: 60rpx;
+  color: white;
+}
+.things .right .midtitle>view:first-child{
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.things .right .midtitle>view:last-child{
+  font-size: 23rpx;
+}

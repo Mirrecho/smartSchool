@@ -41,3 +41,20 @@
     <view>全部</view>
   </view>
 </view>
+<!-- 待办事项和办事指南 -->
+<view class="things">
+  <view class="left">
+    <image src="../../imgs/man.png" />
+    <view class="midtitle">
+      <view>待办事项</view>
+      <view>我的待办事项</view>
+    </view>
+  </view>
+  <view class="right">
+    <image src="../../imgs/woman.png" />
+    <view class="midtitle">
+      <view>办事指南</view>
+      <view>办事指南汇总</view>
+    </view>
+  </view>
+</view>
