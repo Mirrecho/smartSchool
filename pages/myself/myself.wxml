@@ -19,3 +19,61 @@
   </view>
 </view>
 </view>
+<!-- 办事 -->
+<view class="things">
+  <view class="left">
+    <image src="../../imgs/appgirl.png" mode="aspectFit"/>
+    <image src="../../imgs/bgright.svg" mode="aspectFit"/>
+    <view class="midtitle">
+      <view>待办事项</view>
+      <view>我收藏的应用</view>
+    </view>
+  </view>
+  <view class="right">
+    <image src="../../imgs/appboy.png" mode="aspectFit"/>
+    <image src="../../imgs/bgleft.svg" mode="aspectFit"/>
+    <view class="midtitle">
+      <view>办事指南</view>
+      <view>办事指南汇总</view>
+    </view>
+  </view>
+</view>
+<!-- 推荐应用 -->
+<view class="app">
+  <view>
+    <view>推荐应用</view>
+  </view>
+</view>
+<!-- 操作栏 -->
+<view class="operate">
+  <view>
+  <view class="y">
+    <image src="../../imgs/messageimgs/3.png" />
+  </view>
+    <view class="texts">
+      <view>教职工请假申请</view>
+      <view>工作部门：系统维护 请假人：xxx</view>
+    </view>
+    <view>昨天</view>
+  </view>
+  <view>
+  <view class="p">
+    <image src="../../imgs/messageimgs/4.png" />
+  </view>
+    <view class="texts">
+      <view>教职工请假申请</view>
+      <view>工作部门：系统维护 请假人：xxx</view>
+    </view>
+    <view>昨天</view>
+  </view>
+  <view>
+  <view class="g">
+     <image src="../../imgs/messageimgs/5.png" />
+  </view>
+    <view class="texts">
+      <view>教职工请假申请</view>
+      <view>工作部门：系统维护 请假人：xxx</view>
+    </view>
+    <view>昨天</view>
+  </view>
+</view>
