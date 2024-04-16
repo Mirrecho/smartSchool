@@ -1,0 +1,10 @@
+<!-- 头部图片 -->
+<view class="topimg">
+  <image src="../../imgs/1.png" mode="" />
+  <view class="toptitle">
+    <view>智慧校园门户</view>
+    <view>学校概况 办事指南等功能</view>
+    <view>方便快捷 办事实时查看消息</view>
+    <view>去了解</view>
+  </view>
+</view>

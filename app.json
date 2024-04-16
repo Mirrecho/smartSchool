@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/message/message"
+    "pages/message/message",
+    "pages/my/my"
   ],
   "window": {
     "navigationBarTextStyle": "black",
