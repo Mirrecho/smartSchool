@@ -76,3 +76,94 @@
     <image src="../../imgs/newfeel.png" mode="aspectFit" />
   </view>
 </view>
+<!-- 推荐应用 -->
+<view class="app">
+  <view>
+    <view>推荐应用</view>
+    <view>根据您最近浏览和办理应用为您推荐</view>
+  </view>
+  <view class="flexbox">
+    <view class="apps">
+      <view>
+        <image src="../../imgs/scoreA.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">成绩查询</view>
+      <view class="apptext">查询当前及历史成绩</view>
+      <view><image src="../../imgs/eyes.svg" /> 200+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
+    <view class="apps">
+      <view>
+        <image src="../../imgs/books.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">图书借阅</view>
+      <view class="apptext">查看图书借阅记录</view>
+      <view><image src="../../imgs/eyes.svg" /> 100+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
+    <view class="apps">
+      <view>
+        <image src="../../imgs/club.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">网上查询</view>
+      <view class="apptext">自助网上缴费</view>
+      <view><image src="../../imgs/eyes.svg" /> 150+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
+    <view class="apps">
+      <view>
+        <image src="../../imgs/danger.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">学校预警</view>
+      <view class="apptext">查看学校预警信息</view>
+      <view><image src="../../imgs/eyes.svg" /> 200+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
+  </view>
+
+  <view class="inform">
+  <view>
+    <view>通知公告</view>
+    <view>通知公告</view>
+    <view>综合信息</view>
+    <view>学术动态</view>
+  </view>
+  <view>
+  <view>
+    <view>
+      <view>关于加强新生入学后校园安全管理规范的通知</view>
+      <view>校园新闻网</view>
+    </view>
+    <view class="r1">
+      <image src="../../imgs/newOne.png" mode=""/>
+    </view>
+  </view>
+  <view>
+    <view>
+      <view>关于开展2023新生入学教育系列培训课程的指导意见 </view>
+      <view>信息化管理中心</view>
+    </view>
+    <view class="r2">
+      <image src="../../imgs/item2.png" mode=""/>
+    </view>
+  </view>
+  <view>
+    <view>
+      <view>关于加强新生入学后校园安全管理条例实行的通知</view>
+      <view>教务处</view>
+    </view>
+    <view class="r3">
+      <image src="../../imgs/item1.png" mode=""/>
+    </view>
+  </view>
+  </view>
+</view>
+</view>
