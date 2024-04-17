@@ -45,3 +45,74 @@
   font-weight: 900;
   margin-right: 20rpx;
 }
+/* 办事 */
+.things{
+  width: 90%;
+  height: 200rpx;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+  position: relative;
+}
+.things .left{
+  position: relative;
+  display: flex;
+  width: 48%;
+  height: 200rpx;
+  top: -100rpx;
+  padding-bottom: 95rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.things .left>image:first-child{
+  width: 180rpx;
+  position: absolute;
+  top: 80rpx;
+}
+.things .left .midtitle{
+  position: absolute;
+  right: 26rpx;
+  top: 170rpx;
+  color: white;
+}
+.things .left .midtitle>view:first-child{
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.things .left .midtitle>view:last-child{
+  font-size: 23rpx;
+}
+.things .right{
+  position: relative;
+  display: flex;
+  width: 48%;
+  height: 200rpx;
+  border-radius: 20rpx;
+  top: -100rpx;
+}
+.things .right>image:first-child{
+  position: absolute;
+  width: 180rpx;
+  height: 150rpx;
+  margin-top: 144rpx;
+
+}
+.things .right .midtitle{
+  position: absolute;
+  right: 25rpx;
+  top: 70rpx;
+  color: white;
+}
+.things .right .midtitle>view:first-child{
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  margin-top: 100rpx;
+}
+.things .right .midtitle>view:last-child{
+  font-size: 23rpx;
+}
+
+.flexbox{
+  display: flex;
+}
