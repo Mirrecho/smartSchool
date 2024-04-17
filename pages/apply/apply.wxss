@@ -204,3 +204,43 @@
   width: 40rpx;
   height: 40rpx;
 }
+/* 最新上线 */
+.new{
+  width: 90%;
+  margin: auto;
+  margin-top: 50rpx;
+}
+.new .options{
+  font-size: 28rpx;
+  font-weight: 600;
+}
+.new .options>view{
+  margin-left: 30rpx;
+}
+.new .options>view:first-child{
+  margin-left: 0rpx;
+  margin-top: -20rpx;
+  font-size: 40rpx;
+  border-bottom: #b3f2c7 solid 10rpx;
+}
+.new .text{
+  font-size: 30rpx;
+  font-weight: 600;
+  margin: 50rpx 0 30rpx 0;
+}
+.new .choices{
+  height: 320rpx;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.new .choices>view{
+  text-align: center;
+  width: 120rpx;
+  height: 120rpx;
+  margin:10rpx;
+}
+.new .choices>view>image{
+  width: 70rpx;
+  height: 70rpx;
+}
+
