@@ -116,3 +116,91 @@
 .flexbox{
   display: flex;
 }
+/* 推荐应用 */
+.app{
+  width: 90%;
+  margin: auto;
+  margin-top: 50rpx;
+}
+.app>view:first-child{
+  margin-bottom: 30rpx;
+}
+.app>view:first-child>view:first-child{
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+.app>view:first-child>view:last-child{
+  font-size: 26rpx;
+  color: #868686;
+}
+.app>view:last-child{
+  justify-content: space-between;
+}
+.app .apps{
+  width: 164rpx;
+  height: 280rpx;
+  border-radius: 22rpx;
+  box-shadow: 2rpx 2rpx 20rpx 1rpx rgba(0, 0, 0, 0.068);
+  position: relative;
+}
+.app .apps>view:first-child{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right,#27E797,#12BA92);
+  margin-top: 23rpx;
+}
+.app .flexbox>view:nth-child(2)>view:first-child{
+  background: linear-gradient(to right,#FDB025,#FE9314);
+}
+.app .flexbox>view:nth-child(3)>view:first-child{
+  background: linear-gradient(to right,#2DB8F3,#2A8FDD);
+}
+.app .flexbox>view:nth-child(4)>view:first-child{
+  background: linear-gradient(to right,#D36B6D,#C0382C);
+}
+.app .apps>view:first-child>image{
+  width: 35rpx;
+  height: 35rpx;
+}
+.app .apps .apptitle{
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 8rpx;
+}
+.app .apps .apptext{
+  font-size: 18rpx;
+  text-align: center;
+  margin-top: 2rpx;
+  color: #7f7f7f;
+}
+.app .apps>view:nth-child(4){
+  color: #ABABAB;
+  font-size: 18rpx;
+  text-align: center;
+  line-height: 30rpx;
+  margin: auto;
+  width: 90rpx;
+  height: 28rpx;
+  border-radius: 25rpx;
+  background-color: #f5f5f5e1;
+  margin-top: 13rpx;
+}
+.app .apps>view:nth-child(4)>image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.app .apps>view:last-child{
+  display: flex;
+  justify-content: center;
+  margin-top: 15rpx;
+}
+.app .apps>view:last-child>image{
+  width: 40rpx;
+  height: 40rpx;
+}
