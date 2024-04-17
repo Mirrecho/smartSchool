@@ -83,3 +83,47 @@
     </view>
   </view>
 </view>
+<!-- 最新上线 -->
+<view class="new">
+  <view class="options flexbox">
+    <view>最新上线</view>
+    <view>电子商务</view>
+    <view>教学服务</view>
+    <view>科研服务</view>
+  </view>
+  <view class="text">最新上线</view>
+  <view class="choices flexbox">
+    <view>
+      <image src="../../imgs/appimgs/school.png"/>
+      <view>学校概况</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/map.png"/>
+      <view>学校地图</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/money.png"/>
+      <view>我的消费</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/email.png"/>
+      <view>电子邮件</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/libray.png"/>
+      <view>图书借阅</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/jiangbei.png"/>
+      <view>获奖成果</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/red.png"/>
+      <view>我的党建</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/shenpi.png"/>
+      <view>网上审批</view>
+    </view>
+  </view>
+</view>
