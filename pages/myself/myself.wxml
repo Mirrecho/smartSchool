@@ -1,37 +1,37 @@
 <!-- 背景 -->
 <view class="bg">
   <!-- 我的 -->
-<view class="me">
-  <image src="../../imgs/app.png" mode="aspectFit"/>
-  <view>
-    我的
+  <view class="me">
+    <image src="../../imgs/app.png" mode="aspectFit" />
+    <view>
+      我的
+    </view>
+    <image src="../../imgs/app.png" mode="aspectFit" />
   </view>
-  <image src="../../imgs/app.png" mode="aspectFit"/>
-</view>
-<!-- 头像 -->
-<view class="my">
-  <view class="text">
-    <view>韩瑞</view>
-    <view>信息化管理中心</view>
+  <!-- 头像 -->
+  <view class="my">
+    <view class="text">
+      <view>韩瑞</view>
+      <view>信息化管理中心</view>
+    </view>
+    <view class="img">
+      <image src="../../imgs/myimgs/avater.png" />
+    </view>
   </view>
-  <view class="img">
-    <image src="../../imgs/myimgs/avater.png" />
-  </view>
-</view>
 </view>
 <!-- 办事 -->
 <view class="things">
   <view class="left">
-    <image src="../../imgs/appgirl.png" mode="aspectFit"/>
-    <image src="../../imgs/bgright.svg" mode="aspectFit"/>
+    <image src="../../imgs/appgirl.png" mode="aspectFit" />
+    <image src="../../imgs/bgright.svg" mode="aspectFit" />
     <view class="midtitle">
       <view>待办事项</view>
       <view>我收藏的应用</view>
     </view>
   </view>
   <view class="right">
-    <image src="../../imgs/appboy.png" mode="aspectFit"/>
-    <image src="../../imgs/bgleft.svg" mode="aspectFit"/>
+    <image src="../../imgs/appboy.png" mode="aspectFit" />
+    <image src="../../imgs/bgleft.svg" mode="aspectFit" />
     <view class="midtitle">
       <view>办事指南</view>
       <view>办事指南汇总</view>
@@ -47,9 +47,9 @@
 <!-- 操作栏 -->
 <view class="operate">
   <view>
-  <view class="y">
-    <image src="../../imgs/messageimgs/3.png" />
-  </view>
+    <view class="y">
+      <image src="../../imgs/messageimgs/3.png" />
+    </view>
     <view class="texts">
       <view>教职工请假申请</view>
       <view>工作部门：系统维护 请假人：xxx</view>
@@ -57,9 +57,9 @@
     <view>昨天</view>
   </view>
   <view>
-  <view class="p">
-    <image src="../../imgs/messageimgs/4.png" />
-  </view>
+    <view class="p">
+      <image src="../../imgs/messageimgs/4.png" />
+    </view>
     <view class="texts">
       <view>教职工请假申请</view>
       <view>工作部门：系统维护 请假人：xxx</view>
@@ -67,9 +67,9 @@
     <view>昨天</view>
   </view>
   <view>
-  <view class="g">
-     <image src="../../imgs/messageimgs/5.png" />
-  </view>
+    <view class="g">
+      <image src="../../imgs/messageimgs/5.png" />
+    </view>
     <view class="texts">
       <view>教职工请假申请</view>
       <view>工作部门：系统维护 请假人：xxx</view>
@@ -82,35 +82,35 @@
   <view class="text">我的收藏</view>
   <view class="choices flexbox">
     <view>
-      <image src="../../imgs/appimgs/school.png"/>
+      <image src="../../imgs/appimgs/school.png" />
       <view>学校概况</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/map.png"/>
+      <image src="../../imgs/appimgs/map.png" />
       <view>学校地图</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/money.png"/>
+      <image src="../../imgs/appimgs/money.png" />
       <view>我的消费</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/email.png"/>
+      <image src="../../imgs/appimgs/email.png" />
       <view>电子邮件</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/libray.png"/>
+      <image src="../../imgs/appimgs/libray.png" />
       <view>图书借阅</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/jiangbei.png"/>
+      <image src="../../imgs/appimgs/jiangbei.png" />
       <view>获奖成果</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/red.png"/>
+      <image src="../../imgs/appimgs/red.png" />
       <view>我的党建</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/shenpi.png"/>
+      <image src="../../imgs/appimgs/shenpi.png" />
       <view>网上审批</view>
     </view>
   </view>
@@ -120,35 +120,35 @@
   <view class="text">我的信息</view>
   <view class="choices flexbox">
     <view>
-      <image src="../../imgs/appimgs/school.png"/>
+      <image src="../../imgs/appimgs/school.png" />
       <view>教务系统</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/map.png"/>
+      <image src="../../imgs/appimgs/map.png" />
       <view>学费缴纳</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/money.png"/>
+      <image src="../../imgs/appimgs/money.png" />
       <view>星标课程</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/email.png"/>
+      <image src="../../imgs/appimgs/email.png" />
       <view>学生科研</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/libray.png"/>
+      <image src="../../imgs/appimgs/libray.png" />
       <view>在线选课</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/jiangbei.png"/>
+      <image src="../../imgs/appimgs/jiangbei.png" />
       <view>专业设置</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/red.png"/>
+      <image src="../../imgs/appimgs/red.png" />
       <view>学霸名单</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/shenpi.png"/>
+      <image src="../../imgs/appimgs/shenpi.png" />
       <view>学生信息</view>
     </view>
   </view>
