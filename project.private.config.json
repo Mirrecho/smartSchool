@@ -9,7 +9,7 @@
       "list": [
         {
           "name": "components/rightBtn/rightBtn",
-          "pathName": "components/rightBtn/rightBtn",
+          "pathName": "pages/message/message",
           "query": "",
           "launchMode": "default",
           "scene": null
