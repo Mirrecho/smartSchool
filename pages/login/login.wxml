@@ -1,3 +1,9 @@
 <!-- 头部 -->
 <view class="head">
 <view>
+  <h1 class="hh">X</h1>
+</view>
+<view>
+验证码登录
+</view>
+</view>
