@@ -1,3 +1,15 @@
 <view class="head">
-<view><image src="../../imgs/左箭头.svg" mode=""/></view>
+  <view>
+    <image src="../../imgs/左箭头.svg" mode="" />
+  </view>
+</view>
+<view class="head2">
+  <image src="../../imgs/科比.png" mode="" />
+</view>
+<view class="mid">
+  <view class="phone">135******555</view>
+  <view class="zg">中国移动提供认证服务</view>
+  <view class="dlu">登录</view>
+  <view class="qiehuan">切换账号</view>
+  <view class="other">通过其他方式登录</view>
 </view>

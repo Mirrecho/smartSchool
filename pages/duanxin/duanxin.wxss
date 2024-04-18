@@ -5,3 +5,51 @@
   width: 80rpx;
   height: 80rpx;
 }
+.head2{
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+.head2>image{
+  width: 150rpx;
+  height: 150rpx;
+border-radius: 60rpx;
+}
+.mid{
+  text-align: center;
+}
+.phone{
+  font-size: 60rpx;
+}
+.zg{
+  font-weight: 300;
+}
+.dlu{
+  font-size: 45rpx;
+  color: wheat;
+  background-color: #2596f0;
+  border-radius: 25px;
+  margin-top: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+  width: 600rpx;
+  height: 100rpx;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.qiehuan{
+  margin-top: 10%;
+  color: #299ffd;
+  font-size: 35rpx;
+font-weight: 600;
+}
+
+.other{
+  margin-top: 45%;
+  font-size: 34rpx;
+  font-weight: 200;
+  margin-bottom: 20rpx;
+}
