@@ -30,3 +30,15 @@
 .wenti{
   margin-top: 30rpx;
 }
+.queren{
+  margin-top: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+  width: 600rpx;
+  height: 100rpx;
+  background-color: #24e296;
+  text-align: center;
+  border-radius: 10px;
+}

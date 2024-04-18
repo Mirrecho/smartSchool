@@ -18,3 +18,8 @@
   <view style="height: 1px; background-color: #ccc;"></view>
   <view class="wenti"> 登录遇到问题？</view>
 </view>
+
+<!-- 确认登录 -->
+<view class="queren">
+<view>登录</view>
+</view>
