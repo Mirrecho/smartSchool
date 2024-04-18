@@ -1,20 +1,22 @@
 /* pages/apply/apply.wxss */
 /* 搜索栏 */
-.w90{
+.w90 {
   width: 90%;
   height: auto;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
-.Search{
+
+.Search {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   height: 70rpx;
   box-shadow: 2px 2px 2px 1px rgba(139, 139, 139, 0.2);
 }
-.Search .w90>view{
+
+.Search .w90>view {
   width: 300rpx;
   height: 50rpx;
   display: flex;
@@ -22,31 +24,36 @@
   padding-left: 10rpx;
   box-shadow: 0px 2px 2px 1px rgba(139, 139, 139, 0.1);
   border-radius: 20rpx;
-  margin-left:35rpx;
+  margin-left: 35rpx;
 }
-.Search .w90>view>image{
+
+.Search .w90>view>image {
   width: 45rpx;
   height: 35rpx;
 }
-.Search .w90>view>input{
+
+.Search .w90>view>input {
   width: 190px;
   height: 20px;
   font-size: 18rpx;
-  padding-left:10rpx;
-  border: none; 
+  padding-left: 10rpx;
+  border: none;
 }
-.Search .w90>image{
+
+.Search .w90>image {
   width: 50rpx;
   height: 50rpx;
-  margin-left:35rpx;
+  margin-left: 35rpx;
 }
-.Search .w90>text{
+
+.Search .w90>text {
   font-size: 33rpx;
   font-weight: 900;
   margin-right: 20rpx;
 }
+
 /* 办事 */
-.things{
+.things {
   width: 90%;
   height: 200rpx;
   margin: auto;
@@ -55,7 +62,8 @@
   margin-top: 40rpx;
   position: relative;
 }
-.things .left{
+
+.things .left {
   position: relative;
   display: flex;
   width: 48%;
@@ -65,25 +73,30 @@
   border-radius: 20rpx;
   overflow: hidden;
 }
-.things .left>image:first-child{
+
+.things .left>image:first-child {
   width: 180rpx;
   position: absolute;
   top: 80rpx;
 }
-.things .left .midtitle{
+
+.things .left .midtitle {
   position: absolute;
   right: 26rpx;
   top: 170rpx;
   color: white;
 }
-.things .left .midtitle>view:first-child{
+
+.things .left .midtitle>view:first-child {
   font-size: 28rpx;
   margin-bottom: 10rpx;
 }
-.things .left .midtitle>view:last-child{
+
+.things .left .midtitle>view:last-child {
   font-size: 23rpx;
 }
-.things .right{
+
+.things .right {
   position: relative;
   display: flex;
   width: 48%;
@@ -91,60 +104,71 @@
   border-radius: 20rpx;
   top: -100rpx;
 }
-.things .right>image:first-child{
+
+.things .right>image:first-child {
   position: absolute;
   width: 180rpx;
   height: 150rpx;
   margin-top: 144rpx;
 
 }
-.things .right .midtitle{
+
+.things .right .midtitle {
   position: absolute;
   right: 25rpx;
   top: 70rpx;
   color: white;
 }
-.things .right .midtitle>view:first-child{
+
+.things .right .midtitle>view:first-child {
   font-size: 28rpx;
   margin-bottom: 10rpx;
   margin-top: 100rpx;
 }
-.things .right .midtitle>view:last-child{
+
+.things .right .midtitle>view:last-child {
   font-size: 23rpx;
 }
 
-.flexbox{
+.flexbox {
   display: flex;
 }
+
 /* 推荐应用 */
-.app{
+.app {
   width: 90%;
   margin: auto;
   margin-top: 50rpx;
 }
-.app>view:first-child{
+
+.app>view:first-child {
   margin-bottom: 30rpx;
 }
-.app>view:first-child>view:first-child{
+
+.app>view:first-child>view:first-child {
   font-size: 40rpx;
   font-weight: 600;
   margin-bottom: 20rpx;
 }
-.app>view:first-child>view:last-child{
+
+.app>view:first-child>view:last-child {
   font-size: 26rpx;
   color: #868686;
 }
-.app>view:last-child{
+
+.app>view:last-child {
   justify-content: space-between;
 }
-.app .apps{
+
+.app .apps {
   width: 164rpx;
   height: 280rpx;
   border-radius: 22rpx;
   box-shadow: 2rpx 2rpx 20rpx 1rpx rgba(0, 0, 0, 0.068);
   position: relative;
 }
-.app .apps>view:first-child{
+
+.app .apps>view:first-child {
   width: 70rpx;
   height: 70rpx;
   border-radius: 50%;
@@ -152,34 +176,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right,#27E797,#12BA92);
+  background: linear-gradient(to right, #27E797, #12BA92);
   margin-top: 23rpx;
 }
-.app .flexbox>view:nth-child(2)>view:first-child{
-  background: linear-gradient(to right,#FDB025,#FE9314);
+
+.app .flexbox>view:nth-child(2)>view:first-child {
+  background: linear-gradient(to right, #FDB025, #FE9314);
 }
-.app .flexbox>view:nth-child(3)>view:first-child{
-  background: linear-gradient(to right,#2DB8F3,#2A8FDD);
+
+.app .flexbox>view:nth-child(3)>view:first-child {
+  background: linear-gradient(to right, #2DB8F3, #2A8FDD);
 }
-.app .flexbox>view:nth-child(4)>view:first-child{
-  background: linear-gradient(to right,#D36B6D,#C0382C);
+
+.app .flexbox>view:nth-child(4)>view:first-child {
+  background: linear-gradient(to right, #D36B6D, #C0382C);
 }
-.app .apps>view:first-child>image{
+
+.app .apps>view:first-child>image {
   width: 35rpx;
   height: 35rpx;
 }
-.app .apps .apptitle{
+
+.app .apps .apptitle {
   font-size: 28rpx;
   text-align: center;
   margin-top: 8rpx;
 }
-.app .apps .apptext{
+
+.app .apps .apptext {
   font-size: 18rpx;
   text-align: center;
   margin-top: 2rpx;
   color: #7f7f7f;
 }
-.app .apps>view:nth-child(4){
+
+.app .apps>view:nth-child(4) {
   color: #ABABAB;
   font-size: 18rpx;
   text-align: center;
@@ -191,55 +222,66 @@
   background-color: #f5f5f5e1;
   margin-top: 13rpx;
 }
-.app .apps>view:nth-child(4)>image{
+
+.app .apps>view:nth-child(4)>image {
   width: 20rpx;
   height: 20rpx;
 }
-.app .apps>view:last-child{
+
+.app .apps>view:last-child {
   display: flex;
   justify-content: center;
   margin-top: 15rpx;
 }
-.app .apps>view:last-child>image{
+
+.app .apps>view:last-child>image {
   width: 40rpx;
   height: 40rpx;
 }
+
 /* 最新上线 */
-.new{
+.new {
   width: 90%;
   margin: auto;
   margin-top: 50rpx;
 }
-.new .options{
+
+.new .options {
   font-size: 28rpx;
   font-weight: 600;
 }
-.new .options>view{
+
+.new .options>view {
   margin-left: 30rpx;
 }
-.new .options>view:first-child{
+
+.new .options>view:first-child {
   margin-left: 0rpx;
   margin-top: -20rpx;
   font-size: 40rpx;
   border-bottom: #b3f2c7 solid 10rpx;
 }
-.new .text{
+
+.new .text {
   font-size: 30rpx;
   font-weight: 600;
   margin: 50rpx 0 30rpx 0;
 }
-.new .choices{
+
+.new .choices {
   height: 320rpx;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content: space-between;
 }
-.new .choices>view{
+
+.new .choices>view {
   text-align: center;
   width: 120rpx;
   height: 120rpx;
-  margin:10rpx;
+  margin: 10rpx;
 }
-.new .choices>view>image{
+
+.new .choices>view>image {
   width: 70rpx;
   height: 70rpx;
 }
