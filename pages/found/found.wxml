@@ -20,3 +20,12 @@
     <view>随时随地查看</view>
   </view>
 </view>
+<!-- 最新上线 -->
+<view class="new">
+  <view class="options flexbox">
+    <view>通知公告</view>
+    <view>学校新闻</view>
+    <view>综合信息</view>
+    <view>学术动态</view>
+  </view>
+</view>

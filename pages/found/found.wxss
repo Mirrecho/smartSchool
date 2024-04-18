@@ -79,3 +79,22 @@
 .flexbox{
   display: flex;
 }
+/* 通知公告 */
+.new{
+  width: 90%;
+  margin: auto;
+  margin-top: 50rpx;
+}
+.new .options{
+  font-size: 28rpx;
+  font-weight: 600;
+}
+.new .options>view{
+  margin-left: 30rpx;
+}
+.new .options>view:first-child{
+  margin-left: 0rpx;
+  margin-top: -20rpx;
+  font-size: 40rpx;
+  border-bottom: #b3f2c7 solid 10rpx;
+}
