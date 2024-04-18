@@ -6,7 +6,8 @@
     "pages/my/my",
     "pages/myself/myself",
     "pages/apply/apply",
-    "pages/found/found"
+    "pages/found/found",
+    "pages/duanxin/duanxin"
   ],
   "window": {
     "navigationBarTextStyle": "black",
