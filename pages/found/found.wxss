@@ -98,3 +98,31 @@
   font-size: 40rpx;
   border-bottom: #b3f2c7 solid 10rpx;
 }
+/* 通知栏 */
+.notice{
+  width: 90%;
+  height: auto;
+}
+.notice .new{
+  height: 130rpx;
+  border-radius: 20rpx;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.notice .new>image{
+  width: 30%;
+  border-radius: 20rpx;
+}
+.notice .text{
+  margin-left: 20rpx;
+}
+.notice .text>view:first-child{
+  font-size: 28rpx;
+  font-weight: 900;
+}
+.notice .text>view:last-child{
+  font-size: 20rpx;
+  color: #A3A3A3;
+  margin: 10rpx 0 5rpx 0;
+}
