@@ -9,7 +9,8 @@
     "pages/found/found",
     "pages/duanxin/duanxin",
     "pages/login/login",
-    "pages/shezhi/shezhi"
+    "pages/shezhi/shezhi",
+    "pages/welcome/welcome"
   ],
   "window": {
     "navigationBarTextStyle": "black",
