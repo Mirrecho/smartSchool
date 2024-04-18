@@ -5,3 +5,8 @@
   width: 80rpx;
   height: 80rpx;
 }
+.fontt{
+  margin-left: 35%;
+  font-size: 50rpx;
+  margin-bottom: 30rpx;
+}
