@@ -13,3 +13,7 @@
   <view class="qiehuan">切换账号</view>
   <view class="other">通过其他方式登录</view>
 </view>
+<view class="chose">
+  <checkbox value="" />
+  <view> 登录即代表同意<a class="aa">中国移动认证服务条款</a>和<a class="aa">应用自定义服务条款一、应用自定义服务条款二</a>并使用本机号码登录。</view>
+</view>
