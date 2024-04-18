@@ -1,34 +1,40 @@
-.head{
+.head {
   display: flex;
 }
-.head>view>image{
+
+.head>view>image {
   width: 80rpx;
   height: 80rpx;
 }
-.fontt{
+
+.fontt {
   margin-left: 35%;
   font-size: 50rpx;
   margin-bottom: 30rpx;
 }
+
+
 /* 中部 */
-.mid>view{
+.mid>view {
   margin-top: 35rpx;
   margin-left: 8%;
   font-size: 30rpx;
 }
-.mid>view>image{
+
+.mid>view>image {
   padding-right: 30rpx;
   height: 50rpx;
   width: 50rpx;
 }
 
 
-.out{
+.out {
   display: flex;
   margin-top: 15%;
 
 }
-.out>image{
+
+.out>image {
   padding-right: 35rpx;
   margin-left: 8%;
   height: 50rpx;

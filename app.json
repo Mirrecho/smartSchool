@@ -1,20 +1,20 @@
 {
   "pages": [
+    "pages/duanxin/duanxin",
+    "pages/welcome/welcome",
+    "pages/shehzhi/shezhi",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/message/message",
-    "pages/my/my",
+    "pages/login/login",
+    "pages/found/found",
     "pages/myself/myself",
     "pages/apply/apply",
-    "pages/found/found",
-    "pages/duanxin/duanxin",
-    "pages/login/login",
-    "pages/shezhi/shezhi",
-    "pages/welcome/welcome"
+    "pages/my/my",
+    "pages/logs/logs",
+    "pages/message/message"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "完美校园",
     "navigationBarBackgroundColor": "#ffffff"
   },
   "tabBar": {

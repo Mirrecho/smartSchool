@@ -7,6 +7,7 @@
     验证码登录
   </view>
 </view>
+
 <!-- 中部 -->
 <view class="title">
   账号密码登录
@@ -23,6 +24,7 @@
 <view class="queren">
   <view>登录</view>
 </view>
+
 <!-- 通用底部 -->
 <view class="bottom">
 

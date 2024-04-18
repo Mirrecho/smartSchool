@@ -1,36 +1,43 @@
-.head{
+.head {
   margin-left: 60rpx;
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.hh{
+
+.hh {
   font-size: 60rpx;
 }
-.title{
+
+.title {
   margin-top: 30rpx;
   margin-left: 60rpx;
   font-size: 60rpx;
 }
-.table{
+
+.table {
   margin-top: 100rpx;
   margin-left: 60rpx;
   margin-right: 62rpx;
   font-size: 30rpx;
   font-weight: 100;
 }
-.zhanghao{
+
+.zhanghao {
   margin-bottom: 30rpx;
 }
-.mima{
+
+.mima {
   margin-top: 60rpx;
   margin-bottom: 30rpx;
 }
-.wenti{
+
+.wenti {
   margin-top: 30rpx;
 }
-.queren{
+
+.queren {
   margin-top: 80rpx;
   display: flex;
   justify-content: center;
@@ -42,33 +49,43 @@
   text-align: center;
   border-radius: 10px;
 }
+
+
+
+
+
 /* 通底部 */
-.bottom{
+.bottom {
   padding-top: 60%;
   width: 60%;
   display: flex;
   justify-content: space-between;
   padding-left: 20%;
 }
-.bottom>view{
+
+.bottom>view {
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
 }
-.red{
-background-color: #fe3a2f;
+
+.red {
+  background-color: #fe3a2f;
 }
-.green{
-background-color: #00dc6c;
+
+.green {
+  background-color: #00dc6c;
 }
-.bottom>view>image{
+
+.bottom>view>image {
   width: 80rpx;
   height: 80rpx;
   text-align: center;
   margin-top: 10rpx;
   margin-left: 15rpx;
 }
-.bottom2{
+
+.bottom2 {
   width: 60%;
   display: flex;
   justify-content: space-between;

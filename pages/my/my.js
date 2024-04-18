@@ -7,7 +7,25 @@ Page({
   data: {
     message:'初始数据'
   },
+change(){
+  console.log(123)
+  //普通页面跳转
+  // wx.navigateTo({
+  //   url: '/pages/find/find',
+  // })
 
+  //底部导航页面跳转
+  wx.switchTab({
+    url: '/pages/logs/logs',
+  })
+},
+
+//改变初始数据的函数
+changemessage(){
+  this.setData({
+    message:'重置数据'
+  })
+},
   /**
    * 生命周期函数--监听页面加载
    */
