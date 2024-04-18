@@ -24,3 +24,17 @@
   font-size: 30rpx;
   font-weight: 200;
 }
+.ren{
+  padding-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+.ren>image{
+  width: 500rpx;
+  height: 500rpx;
+}
+.ren2{
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+}
