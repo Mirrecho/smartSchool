@@ -15,3 +15,12 @@
   height: 100rpx;
   border-radius: 50%;
 }
+.d1{
+  margin-left: 10%;
+  font-size: 65rpx;
+}
+.d2{
+  margin-left: 10%;
+  font-size: 30rpx;
+  font-weight: 200;
+}

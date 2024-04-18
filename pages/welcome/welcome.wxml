@@ -5,3 +5,6 @@
 <view>
   <image src="../../imgs/科比.png" mode=""/>
 </view>
+</view>
+<view class="d1">用户您好</view>
+<view  class="d2">欢迎登录智慧门户系统，请进行人脸认证</view>
