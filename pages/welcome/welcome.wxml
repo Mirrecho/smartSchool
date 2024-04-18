@@ -1,3 +1,7 @@
 <view class="head2">
 <view><image src="../../imgs/左箭头.svg" mode=""/></view>
 </view>
+<view class="head">
+<view>
+  <image src="../../imgs/科比.png" mode=""/>
+</view>
