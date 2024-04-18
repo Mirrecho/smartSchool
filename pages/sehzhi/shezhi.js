@@ -1,4 +1,4 @@
-// pages/shezhi/shezhi.js
+// pages/sehzhi/shezhi.js
 Page({
 
   /**

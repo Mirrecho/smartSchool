@@ -1,20 +1,18 @@
 <view class="head2">
-  <view>
-    <image src="../../imgs/左箭头.svg" mode="" />
-  </view>
+<view><image src="../../imgs/左箭头.svg" mode=""/></view>
 </view>
 
 <view class="head">
-  <view>
-    <image src="../../imgs/科比.png" mode="" />
-  </view>
+<view>
+  <image src="../../imgs/科比.png" mode=""/>
+</view>
 
 </view>
 <view class="d1">用户您好</view>
-<view class="d2">欢迎登录智慧门户系统，请进行人脸认证</view>
+<view  class="d2">欢迎登录智慧门户系统，请进行人脸认证</view>
 
-<view class="ren">
-  <image src="../../imgs/人脸.png" mode="" />
+<view class="ren"> 
+<image src="../../imgs/人脸.png" mode=""/>
 </view>
 <view class="ren2">点击进行人脸验证</view>
 
@@ -24,19 +22,13 @@
 <!-- 通用底部 -->
 <view class="bottom">
 
-  <view>
-    <image src="../../imgs/刷脸.svg"></image>
-  </view>
-  <view class="red">
-    <image src="../../imgs/新浪微博.svg"></image>
-  </view>
-  <view class="green">
-    <image src="../../imgs/微信.svg"></image>
-  </view>
+<view><image src="../../imgs/刷脸.svg"></image></view>
+<view class="red"><image src="../../imgs/新浪微博.svg"></image></view>
+<view class="green"><image src="../../imgs/微信.svg"></image></view>
 </view>
 
 <view class="bottom2">
-  <view>刷脸登录</view>
-  <view>一键登录</view>
-  <view>微信登录</view>
+<view>刷脸登录</view>
+<view>一键登录</view>
+<view>微信登录</view>
 </view>

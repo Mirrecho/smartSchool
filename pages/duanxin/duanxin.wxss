@@ -1,37 +1,32 @@
-.head {
+.head{
   display: flex;
 }
-
-.head>view>image {
+.head>view>image{
   width: 80rpx;
   height: 80rpx;
 }
 
-.head2 {
+.head2{
   margin-top: 15%;
   display: flex;
   justify-content: center;
 }
-
-.head2>image {
+.head2>image{
   width: 150rpx;
   height: 150rpx;
-  border-radius: 60rpx;
+border-radius: 60rpx;
 }
 
-.mid {
+.mid{
   text-align: center;
 }
-
-.phone {
+.phone{
   font-size: 60rpx;
 }
-
-.zg {
+.zg{
   font-weight: 300;
 }
-
-.dlu {
+.dlu{
   font-size: 45rpx;
   color: wheat;
   background-color: #2596f0;
@@ -47,28 +42,28 @@
   border-radius: 10px;
 }
 
-.qiehuan {
+.qiehuan{
   margin-top: 10%;
   color: #299ffd;
   font-size: 35rpx;
-  font-weight: 600;
+font-weight: 600;
 }
 
-.other {
+.other{
   margin-top: 45%;
   font-size: 34rpx;
   font-weight: 200;
   margin-bottom: 20rpx;
 }
 
-.chose {
+.chose{
   margin-left: 15rpx;
   margin-right: 15rpx;
   font-size: 25rpx;
   display: flex;
 }
 
-.aa {
-
+.aa{
+  
   color: #299ffd;
 }

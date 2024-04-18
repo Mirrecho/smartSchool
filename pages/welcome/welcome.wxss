@@ -1,47 +1,42 @@
-.head2 {
+.head2{
   display: flex;
 }
-
-.head2>view>image {
+.head2>view>image{
   width: 80rpx;
   height: 80rpx;
 }
 
-.head {
+.head{
   margin-left: 10%;
   width: 100rpx;
   height: 100rpx;
 }
-
-.head>view>image {
+.head>view>image{
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
 }
-
-.d1 {
+.d1{
   margin-left: 10%;
   font-size: 65rpx;
 }
-
-.d2 {
+.d2{
   margin-left: 10%;
   font-size: 30rpx;
   font-weight: 200;
 }
 
-.ren {
+.ren{
   padding-top: 15%;
   display: flex;
   justify-content: center;
 }
-
-.ren>image {
+.ren>image{
   width: 500rpx;
   height: 500rpx;
 }
 
-.ren2 {
+.ren2{
   display: flex;
   justify-content: center;
   font-weight: 200;
@@ -51,37 +46,32 @@
 
 
 /* 通底部 */
-.bottom {
+.bottom{
   padding-top: 30%;
   width: 60%;
   display: flex;
   justify-content: space-between;
   padding-left: 20%;
 }
-
-.bottom>view {
+.bottom>view{
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
 }
-
-.red {
-  background-color: #fe3a2f;
+.red{
+background-color: #fe3a2f;
 }
-
-.green {
-  background-color: #00dc6c;
+.green{
+background-color: #00dc6c;
 }
-
-.bottom>view>image {
+.bottom>view>image{
   width: 80rpx;
   height: 80rpx;
   text-align: center;
   margin-top: 10rpx;
   margin-left: 15rpx;
 }
-
-.bottom2 {
+.bottom2{
   width: 60%;
   display: flex;
   justify-content: space-between;

@@ -138,6 +138,7 @@
 .things .right .midtitle>view:last-child{
   font-size: 23rpx;
 }
+
 .flexbox{
   display: flex;
 }
@@ -163,6 +164,7 @@
 .runtime>view:last-child{
   font-size: 26rpx;
 }
+
 .newfeel{
   position: relative;
   width: 90%;
@@ -213,6 +215,7 @@
 .newfeel>view:last-child>image{
   height: 300rpx;
 }
+
 .app{
   width: 90%;
   margin: auto;

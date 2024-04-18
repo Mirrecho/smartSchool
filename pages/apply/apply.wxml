@@ -4,26 +4,26 @@
   <view class="w90">
     <text>应用</text>
     <view>
-      <image src="../../imgs/search.png" mode="" />
-      <input type="text" placeholder="搜索应用 消息 新闻" />
+      <image src="../../imgs/search.png" mode=""/>
+      <input type="text" placeholder="搜索应用 消息 新闻"/>
     </view>
-    <image src="../../imgs/扫码.png" />
-    <image src="../../imgs/消息-置灰.png" />
+    <image src="../../imgs/扫码.png"/>
+    <image src="../../imgs/消息-置灰.png"/>
   </view>
 </view>
 <!-- 办事 -->
 <view class="things">
   <view class="left">
-    <image src="../../imgs/appgirl.png" mode="aspectFit" />
-    <image src="../../imgs/bgright.svg" mode="aspectFit" />
+    <image src="../../imgs/appgirl.png" mode="aspectFit"/>
+    <image src="../../imgs/bgright.svg" mode="aspectFit"/>
     <view class="midtitle">
       <view>待办事项</view>
       <view>我收藏的应用</view>
     </view>
   </view>
   <view class="right">
-    <image src="../../imgs/appboy.png" mode="aspectFit" />
-    <image src="../../imgs/bgleft.svg" mode="aspectFit" />
+    <image src="../../imgs/appboy.png" mode="aspectFit"/>
+    <image src="../../imgs/bgleft.svg" mode="aspectFit"/>
     <view class="midtitle">
       <view>办事指南</view>
       <view>办事指南汇总</view>
@@ -43,9 +43,7 @@
       </view>
       <view class="apptitle">成绩查询</view>
       <view class="apptext">查询当前及历史成绩</view>
-      <view>
-        <image src="../../imgs/eyes.svg" /> 200+
-      </view>
+      <view><image src="../../imgs/eyes.svg" /> 200+</view>
       <view>
         <image src="../../imgs/add.svg" />
       </view>
@@ -56,9 +54,7 @@
       </view>
       <view class="apptitle">图书借阅</view>
       <view class="apptext">查看图书借阅记录</view>
-      <view>
-        <image src="../../imgs/eyes.svg" /> 100+
-      </view>
+      <view><image src="../../imgs/eyes.svg" /> 100+</view>
       <view>
         <image src="../../imgs/add.svg" />
       </view>
@@ -69,9 +65,7 @@
       </view>
       <view class="apptitle">网上查询</view>
       <view class="apptext">自助网上缴费</view>
-      <view>
-        <image src="../../imgs/eyes.svg" /> 150+
-      </view>
+      <view><image src="../../imgs/eyes.svg" /> 150+</view>
       <view>
         <image src="../../imgs/add.svg" />
       </view>
@@ -82,9 +76,7 @@
       </view>
       <view class="apptitle">学校预警</view>
       <view class="apptext">查看学校预警信息</view>
-      <view>
-        <image src="../../imgs/eyes.svg" /> 200+
-      </view>
+      <view><image src="../../imgs/eyes.svg" /> 200+</view>
       <view>
         <image src="../../imgs/add.svg" />
       </view>
@@ -102,35 +94,35 @@
   <view class="text">最新上线</view>
   <view class="choices flexbox">
     <view>
-      <image src="../../imgs/appimgs/school.png" />
+      <image src="../../imgs/appimgs/school.png"/>
       <view>学校概况</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/map.png" />
+      <image src="../../imgs/appimgs/map.png"/>
       <view>学校地图</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/money.png" />
+      <image src="../../imgs/appimgs/money.png"/>
       <view>我的消费</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/email.png" />
+      <image src="../../imgs/appimgs/email.png"/>
       <view>电子邮件</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/libray.png" />
+      <image src="../../imgs/appimgs/libray.png"/>
       <view>图书借阅</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/jiangbei.png" />
+      <image src="../../imgs/appimgs/jiangbei.png"/>
       <view>获奖成果</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/red.png" />
+      <image src="../../imgs/appimgs/red.png"/>
       <view>我的党建</view>
     </view>
     <view>
-      <image src="../../imgs/appimgs/shenpi.png" />
+      <image src="../../imgs/appimgs/shenpi.png"/>
       <view>网上审批</view>
     </view>
   </view>

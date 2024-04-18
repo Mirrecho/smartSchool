@@ -2,7 +2,7 @@
   "pages": [
     "pages/duanxin/duanxin",
     "pages/welcome/welcome",
-    "pages/shehzhi/shezhi",
+    "pages/sehzhi/shezhi",
     "pages/index/index",
     "pages/login/login",
     "pages/found/found",

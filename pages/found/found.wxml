@@ -1,14 +1,15 @@
+
 <!--pages/found/found.wxml-->
 <!-- 搜索栏 -->
 <view class="Search">
   <view class="w90">
     <text>发现</text>
     <view>
-      <image src="../../imgs/search.png" mode="" />
-      <input type="text" placeholder="搜索应用 消息 新闻" />
+      <image src="../../imgs/search.png" mode=""/>
+      <input type="text" placeholder="搜索应用 消息 新闻"/>
     </view>
-    <image src="../../imgs/扫码.png" />
-    <image src="../../imgs/消息-置灰.png" />
+    <image src="../../imgs/扫码.png"/>
+    <image src="../../imgs/消息-置灰.png"/>
   </view>
 </view>
 <!-- 头部图片 -->
@@ -32,36 +33,36 @@
 <!-- 通知栏 -->
 <view class="notice">
   <view class="new flexbox">
-    <view class="text">
-      <view>
-        关于加强新生入学后校园安全管理规范的通知
-      </view>
-      <view>
-        校园新闻网
-      </view>
+  <view class="text">
+    <view>
+      关于加强新生入学后校园安全管理规范的通知
     </view>
-    <image src="../../imgs/newfeel.png" mode="aspectFit" />
+    <view>
+      校园新闻网
+    </view>
+  </view>
+    <image src="../../imgs/newfeel.png" mode="aspectFit"/>
   </view>
   <view class="new flexbox">
-    <view class="text">
-      <view>
-        关于加强新生入学后校园安全管理条例实行的通知
-      </view>
-      <view>
-        教务处
-      </view>
+  <view class="text">
+    <view>
+      关于加强新生入学后校园安全管理条例实行的通知
     </view>
-    <image src="../../imgs/item1.png" mode="aspectFit" />
+    <view>
+      教务处
+    </view>
+  </view>
+    <image src="../../imgs/item1.png" mode="aspectFit"/>
   </view>
   <view class="new flexbox">
-    <view class="text">
-      <view>
-        关于开展2023新生入学教育系列培训课程的指导意见
-      </view>
-      <view>
-        信息化管理中心
-      </view>
+  <view class="text">
+    <view>
+      关于开展2023新生入学教育系列培训课程的指导意见
     </view>
-    <image src="../../imgs/item2.png" mode="aspectFit" />
+    <view>
+      信息化管理中心
+    </view>
+  </view>
+    <image src="../../imgs/item2.png" mode="aspectFit"/>
   </view>
 </view>
