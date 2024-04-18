@@ -1,0 +1,4 @@
+<view class="head">
+<view><image src="../../imgs/左箭头.svg" mode=""/></view>
+<view class="fontt">设置</view>
+</view>

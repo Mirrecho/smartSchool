@@ -8,7 +8,8 @@
     "pages/apply/apply",
     "pages/found/found",
     "pages/duanxin/duanxin",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/shezhi/shezhi"
   ],
   "window": {
     "navigationBarTextStyle": "black",
