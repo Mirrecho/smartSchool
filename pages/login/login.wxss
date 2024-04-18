@@ -42,3 +42,35 @@
   text-align: center;
   border-radius: 10px;
 }
+/* 通底部 */
+.bottom{
+  padding-top: 60%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+}
+.bottom>view{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.red{
+background-color: #fe3a2f;
+}
+.green{
+background-color: #00dc6c;
+}
+.bottom>view>image{
+  width: 80rpx;
+  height: 80rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  margin-left: 15rpx;
+}
+.bottom2{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+}
