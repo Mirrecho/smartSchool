@@ -11,3 +11,10 @@
 <view class="title">
 账号密码登录
 </view>
+<view class="table">
+<view class="zhanghao">请输入登录账号</view>
+  <view style="height: 1px; background-color: #ccc;"></view>
+  <view class="mima">请输入密码</view>
+  <view style="height: 1px; background-color: #ccc;"></view>
+  <view class="wenti"> 登录遇到问题？</view>
+</view>
