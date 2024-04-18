@@ -45,3 +45,37 @@
   font-weight: 900;
   margin-right: 20rpx;
 }
+/* 头部图片 */
+.topimg{
+  position: relative;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.topimg>image{
+  width: 90%;
+  height: 250rpx;
+  border-radius: 20rpx;
+}
+.topimg .toptitle{
+  position: absolute;
+  color: white;
+  top:40rpx;
+  left: 75rpx;
+  font-size: 28rpx;
+  text-align: left;
+}
+.topimg .toptitle>view{
+  font-size: 23rpx;
+}
+.topimg .toptitle>view:first-child{         /* >:直接子主键 */
+  font-size: 34rpx;
+  font-weight: 900;
+  margin-bottom: 20rpx;
+}
+.topimg .toptitle>view:last-child{
+  margin-top: 10rpx;
+}
+
+.flexbox{
+  display: flex;
+}

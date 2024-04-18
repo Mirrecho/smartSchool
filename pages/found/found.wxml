@@ -11,3 +11,12 @@
     <image src="../../imgs/消息-置灰.png"/>
   </view>
 </view>
+<!-- 头部图片 -->
+<view class="topimg">
+  <image src="../../imgs/findationimgs/top.png" mode="" />
+  <view class="toptitle">
+    <view>发现新鲜事</view>
+    <view>校内各院系各部门重要新闻汇报</view>
+    <view>随时随地查看</view>
+  </view>
+</view>
